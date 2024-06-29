@@ -1,0 +1,77 @@
+.features {
+  padding: 60px 60px;
+  transition: all 0.3s ease-in-out;
+}
+
+.containersav {
+  width: 100%;
+  /* padding: 0 8%; */
+}
+
+.rowsav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 35px;
+}
+.rowsav .service {
+  padding: 25px 15px;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.rowsav .service i {
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+.rowsav .service h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.feature_header_black {
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--text-primary-nStudio);
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: 50px;
+}
+
+.feature_header {
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  background: linear-gradient(180deg, #2f80ec 0%, #1addf9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#light .users-header {
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 36.4px */
+}
+
+#dark .users-header {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 36.4px */
+}

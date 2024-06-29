@@ -2,6 +2,8 @@
   min-height: 100vh;
   transition: all 0.3s ease-in-out;
   padding: 60px 0;
+  position: relative;
+  top: 50px;
 }
 
 .hero_video_container {

@@ -1,0 +1,7 @@
+.features {
+  padding: 60px 0px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 50px;
+  min-height: 100vh;
+}

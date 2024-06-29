@@ -96,13 +96,18 @@ const Footer = () => {
                   {" "}
                   Have a support question?
                 </p>
+
                 <a
-                  className="footer-call-to-action-button button"
+                  style={{ color: "#fff" }}
+                  rel="alternate"
                   href="/contacts"
-                  target="_self"
+                  hrefLang="en"
+                  target="_blank"
                 >
-                  {" "}
-                  Get in Touch{" "}
+                  <button className="signInVectorImgBtn_aiagents">
+                    {" "}
+                    Get in Touch{" "}
+                  </button>
                 </a>
               </div>
               <div className="footer-call-to-action">
@@ -115,7 +120,7 @@ const Footer = () => {
                     target="_self"
                   >
                     {" "}
-                    0124-64XXXX{" "}
+                    0124-643-1321{" "}
                   </a>
                 </p>
               </div>

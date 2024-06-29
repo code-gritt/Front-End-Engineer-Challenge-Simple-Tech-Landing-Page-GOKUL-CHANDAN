@@ -21,7 +21,16 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div id={theme}>
         <Navbar />
-        <div className="switch">
+        <div
+          style={{
+            position: "fixed",
+            top: "20px",
+            right:"20px",
+            zIndex: "999",
+            float: "left",
+          }}
+          className="switch"
+        >
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
         </div>
 

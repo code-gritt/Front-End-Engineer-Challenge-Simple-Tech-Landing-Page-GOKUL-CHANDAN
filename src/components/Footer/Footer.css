@@ -216,7 +216,7 @@
 }
 
 .footer-social-amoeba-path {
-  fill: #027b9a;
+  fill: var(--blue-gradient, linear-gradient(180deg, #2f80ec 0%, #1addf9 100%));
 }
 
 .footer-social-link.linkedin {
@@ -277,7 +277,10 @@
 }
 
 .footer-copyright {
-  background-color: #027b9a;
+  background: var(
+    --blue-gradient,
+    linear-gradient(180deg, #2f80ec 0%, #1addf9 100%)
+  );
   color: #fff;
   padding: 15px 30px;
   text-align: center;
@@ -301,6 +304,35 @@
 .footer-copyright-link {
   color: #fff;
   text-decoration: none;
+}
+
+.signInVectorImgBtn_aiagents {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: var(
+    --blue-gradient,
+    linear-gradient(180deg, #2f80ec 0%, #1addf9 100%)
+  );
+  display: inline-flex;
+  height: 48px;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 281.25% */
+}
+
+.signInVectorImgBtn_aiagents:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 /* Media Query For different screens */
