@@ -31,7 +31,12 @@ const Section3 = () => {
             </p>
             <img src={ai_agents_benefits} alt="" loading="lazy" />
           </div>
-          <div data-aos="fade-up" style={{ justifyContent: "center" }}>
+          <div
+            data-aos="fade-up"
+            style={{
+              justifyContent: "center",
+            }}
+          >
             <div style={{ display: "flex" }}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

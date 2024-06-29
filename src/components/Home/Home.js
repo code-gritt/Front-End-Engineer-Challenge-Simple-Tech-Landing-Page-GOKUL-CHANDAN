@@ -39,7 +39,7 @@ const Home = () => {
             <button className="signInVectorImgBtn_aiagents">Learn More</button>
           </a>
         </div>
-        <div data-aos="zoom-in-up">
+        <div data-aos="zoom-in-up" className="hero_content">
           <video
             src={video}
             className="hero_video_container"
