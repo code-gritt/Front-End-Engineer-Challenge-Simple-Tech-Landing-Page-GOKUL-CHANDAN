@@ -1,3 +1,141 @@
-.Home_section {
+.hero_bg {
   min-height: 100vh;
+  transition: all 0.3s ease-in-out;
+  padding: 60px 0;
+}
+
+.hero_video_container {
+  max-width: 700px;
+  max-height: 500px;
+  border-radius: 12px;
+}
+
+.signInVectorImgBtn_aiagents {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: var(
+    --blue-gradient,
+    linear-gradient(180deg, #2f80ec 0%, #1addf9 100%)
+  );
+  display: inline-flex;
+  height: 48px;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 281.25% */
+}
+
+.signInVectorImgBtn_aiagents:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+#light .hero_subtitle_aiagents {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 475px;
+  font-style: normal;
+  line-height: 130%;
+  color: #000;
+}
+
+#dark .hero_subtitle_aiagents {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 475px;
+  font-style: normal;
+  line-height: 130%;
+  color: #fff;
+}
+
+#light .hero_title_QR_black {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%;
+  max-width: 500px;
+}
+
+#dark .hero_title_QR_black {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%;
+  max-width: 500px;
+}
+
+.hero_title_QR {
+  background: var(
+    --blue-gradient,
+    linear-gradient(180deg, #2f80ec 0%, #1addf9 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%;
+  color: #241c15;
+  max-width: 500px;
+}
+
+.hero_content {
+  align-self: center;
+}
+
+.container_sub {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1224px) {
+  .hero_bg {
+    padding: 60px;
+  }
+  .hero_content {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 996px) {
+  .hero_content {
+    max-width: 500px;
+    align-self: center;
+  }
+
+  .hero_video_container {
+    align-self: center;
+  }
+
+  .container_sub {
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 678px) {
+  .hero_bg {
+    padding: 40px 20px;
+  }
+  .hero_content {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero_bg {
+    padding: 30px 10px;
+  }
+  .hero_content {
+    align-self: center;
+  }
 }

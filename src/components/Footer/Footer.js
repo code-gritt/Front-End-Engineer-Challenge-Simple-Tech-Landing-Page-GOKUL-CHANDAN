@@ -98,7 +98,7 @@ const Footer = () => {
                 </p>
                 <a
                   className="footer-call-to-action-button button"
-                  href="#"
+                  href="/contacts"
                   target="_self"
                 >
                   {" "}
