@@ -1,0 +1,252 @@
+.hero_video_container_aiagents {
+  background: var(--secondary-bg);
+  max-width: 500px;
+  max-height: 500px;
+  padding: 0;
+}
+.hero_bg {
+  background: var(--secondary-bg);
+  transition: all 0.3s ease-in-out;
+}
+
+.feature_header_black {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--text-primary-nStudio);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.feature_header {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  background: linear-gradient(180deg, #2f80ec 0%, #1addf9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature_header_side {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  background: linear-gradient(180deg, #2f80ec 0%, #1addf9 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature_subtitle2 {
+  color: var(--text-primary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+.feature_subtitle2_side {
+  color: var(--text-primary);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 20px;
+  width: 70%;
+}
+
+.container_sub {
+  justify-content: center;
+}
+.hero_content {
+  align-self: center;
+  max-width: 600px;
+}
+
+.hero_subtitleHeader {
+  display: flex;
+}
+.heroSubHeader {
+  margin-left: 10px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.feature_line {
+  max-width: 520px;
+  height: 1px;
+  background: rgba(47, 128, 236, 0.4);
+}
+.signInVectorImgBtn_aiagents {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: var(
+    --blue-gradient,
+    linear-gradient(180deg, #2f80ec 0%, #1addf9 100%)
+  );
+  display: inline-flex;
+  height: 48px;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 281.25% */
+}
+
+.signInVectorImgBtn_aiagents:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.agent_hero_bg {
+  background: url("../../../Images/assets/AI_Extrabg.png");
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  height: 600px;
+  margin: auto;
+  flex-shrink: 0;
+
+  position: relative;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.agent_hero_bg1 {
+  background: url("../../../Images/assets/AI_Extrabg1.png");
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  width: 100%;
+  max-width: 1200px;
+  height: 480px;
+  margin: auto;
+  flex-shrink: 0;
+  border-radius: 40px;
+}
+.Vectorbg1 {
+  background: url("../../../Images/assets/AI_Extrabg1.png");
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  width: 100%;
+  max-width: 538.044px;
+  height: 169px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  color: black;
+}
+
+.Vectorbg1 span {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Vectorbg1 p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Vectorbg2 span {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Vectorbg2 p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Vectorbg2 {
+  background: url("../../../Images/assets/Vectorbg2.png");
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  width: 100%;
+  max-width: 538.044px;
+  height: 169px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  color: black;
+}
+
+.AI_Extra_flex {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1224px) {
+  .hero_bg {
+    padding: 60px;
+  }
+  .hero_content {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 996px) {
+  .hero_content {
+    max-width: 500px;
+    align-self: center;
+  }
+
+  .hero_video_container {
+    align-self: center;
+  }
+  .hero_video_container_aiagents {
+    align-self: center;
+  }
+  .container_sub {
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  .AI_Extra_flex img {
+    display: none;
+  }
+}
+@media screen and (max-width: 678px) {
+  .hero_bg {
+    padding: 40px 20px;
+  }
+  .hero_content {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero_bg {
+    padding: 30px 10px;
+  }
+  .hero_content {
+    align-self: center;
+  }
+}
