@@ -38,3 +38,11 @@ Built a basic tech landing page for a fictitious company, "Tech Innovators", usi
 - Include a README file with a brief description of your project and instructions on how to run it.
 - Deploy your landing page on a platform like GitHub Pages, Netlify, or Vercel, and include the live link in
   your README.
+
+# Steps to run the project
+
+-npm install (or) npm install --force
+-npm start
+
+# Project is depolyed live on Nelify link here:
+https://www.taupe-sunburst-ab1066.com
