@@ -25,7 +25,7 @@ function App() {
           style={{
             position: "fixed",
             top: "20px",
-            right:"20px",
+            right: "20px",
             zIndex: "999",
             float: "left",
           }}
@@ -40,7 +40,7 @@ function App() {
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/products" element={<Products />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
 
