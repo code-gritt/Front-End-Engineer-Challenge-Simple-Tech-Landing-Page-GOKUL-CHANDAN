@@ -20,7 +20,7 @@ const Section3 = () => {
             <span className="feature_header">Save 90% on Costs and time</span>
             &nbsp;
             <span className="feature_header_black">
-              by Automating Your Tasks with Navan AI
+              by Automating Your Tasks with Tech Innovators AI
             </span>
             <p className="feature_subtitle2">
               Use AI Workforce for any requirement, whether it is cataloging,

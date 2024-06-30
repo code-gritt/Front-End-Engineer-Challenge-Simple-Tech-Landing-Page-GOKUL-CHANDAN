@@ -12,20 +12,20 @@ const data = [
     answer: `NLorem Ipsum is simply dummy text of g recommendations based on data analysis. `,
   },
   {
-    question: " How to Build an AI Workforce with Navan AI?",
+    question: " How to Build an AI Workforce with Tech Innovators AI?",
     answer: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. out to you within 24 hours.`,
   },
   {
     question: "Lorem Ipsum is simply dummy text of ?",
-    answer: `Yes, Take a test drive of a Navan AI workforce tailored to your industry and see firsthand how it can transform your business. Feel free to connect us on connect@navan.ai`,
+    answer: `Yes, Take a test drive of a Tech Innovators AI workforce tailored to your industry and see firsthand how it can transform your business. Feel free to connect us on connect@Tech Innovators.ai`,
   },
   {
     question: "Lorem Ipsum is simply dummy text of?",
     answer: `NaLorem Ipsum is simply dummy text of and resources for your organization. This allows your team to focus on more strategic and high-value activities, ultimately improving efficiency and productivity.`,
   },
   {
-    question: "What does Navan AI cost?",
-    answer: `Our priLorem Ipsum is simply dummy text of ach requirement is unique. You can connect with the Navan AI team for a personalized quote to understand the pricing structure. to connect you can schedule a demo here calendly.com/varun-saaragh/navan-ai. `,
+    question: "What does Tech Innovators AI cost?",
+    answer: `Our priLorem Ipsum is simply dummy text of ach requirement is unique. You can connect with the Tech Innovators AI team for a personalized quote to understand the pricing structure. to connect you can schedule a demo here calendly.com/varun-saaragh/Tech Innovators-ai. `,
   },
 ];
 
