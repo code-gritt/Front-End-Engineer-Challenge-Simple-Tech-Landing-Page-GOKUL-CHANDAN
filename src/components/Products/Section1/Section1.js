@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import styles from "./Section1.css";
 
 const Section1 = () => {
   useEffect(() => {
@@ -19,7 +18,11 @@ const Section1 = () => {
           <span className="feature_header">10X Growth</span>
         </h1>
 
-        <p data-aos="fade-up" className="feature_subtitle2">
+        <p
+          style={{ width: "75%", margin: "auto" }}
+          data-aos="fade-up"
+          className="feature_subtitle2"
+        >
           Tech Innovators helps you to use the right AI Agents and build your AI
           Workforce effortlessly, simplifying Cataloging, Marketing, and Sales
           operations for any e-Commerce company. Whether you are a beginner or

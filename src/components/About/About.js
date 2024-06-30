@@ -67,7 +67,7 @@ const About = () => {
   };
 
   return (
-    <div className="features">
+    <div className="features showBox">
       <h1 className="feature_header">FAQs</h1>
       <div className="Acc_container">
         <div className="card">
