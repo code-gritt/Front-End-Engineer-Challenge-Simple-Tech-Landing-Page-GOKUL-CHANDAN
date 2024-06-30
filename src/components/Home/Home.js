@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import video from "../../Images/assets/Repair.mp4";
 import "./Home.css";
+import SliderCompanies from "./SliderCompanies/SliderCompanies";
 
 const Home = () => {
   useEffect(() => {
@@ -51,6 +52,7 @@ const Home = () => {
           />
         </div>
       </div>
+      <SliderCompanies />
     </div>
   );
 };
