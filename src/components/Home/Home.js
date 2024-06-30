@@ -56,11 +56,6 @@ const Home = () => {
           />
         </div>
       </div>
-
-      <Blogs />
-      <Products />
-      <About />
-      <Contact />
       <SliderCompanies />
     </div>
   );
