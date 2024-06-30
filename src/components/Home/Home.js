@@ -4,6 +4,10 @@ import "aos/dist/aos.css";
 import video from "../../Images/assets/Repair.mp4";
 import "./Home.css";
 import SliderCompanies from "./SliderCompanies/SliderCompanies";
+import Blogs from "../Blogs/Blogs";
+import Products from "../Products/Products";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   useEffect(() => {
@@ -52,6 +56,11 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <Blogs />
+      <Products />
+      <About />
+      <Contact />
       <SliderCompanies />
     </div>
   );

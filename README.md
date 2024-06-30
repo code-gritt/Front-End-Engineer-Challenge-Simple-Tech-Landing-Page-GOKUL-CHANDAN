@@ -41,8 +41,10 @@ Built a basic tech landing page for a fictitious company, "Tech Innovators", usi
 
 # Steps to run the project
 
--npm install (or) npm install --force
--npm start
+- npm install (or) npm install --force
 
-# Project is depolyed live on Nelify link here:
-https://www.taupe-sunburst-ab1066.com
+- npm start
+
+# Project is deployed live on Nelify link here:
+
+https://flourishing-granita-7b4ed4.netlify.app/
