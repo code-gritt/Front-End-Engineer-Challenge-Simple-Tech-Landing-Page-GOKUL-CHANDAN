@@ -100,7 +100,7 @@ const Footer = () => {
                 <a
                   style={{ color: "#fff" }}
                   rel="alternate"
-                  href="/contacts"
+                  href="/contact"
                   hrefLang="en"
                   target="_blank"
                 >
